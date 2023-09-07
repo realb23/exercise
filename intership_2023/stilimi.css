@@ -1,0 +1,172 @@
+﻿
+    td {
+        padding: 5px;
+        td:first-child,
+        td:last-child {
+        border-radius: 0 10px 10px 0;
+    
+      }
+
+   
+    }
+
+    #datas {
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 5px;
+    }
+
+    #line_format {
+        margin-top: 5px;
+    }
+
+    #gender_table {
+        margin-left: 210px;
+    }
+
+    #ranking {
+        background-color: paleturquoise;
+    }
+
+    #img_standardize {
+        width: 60px;
+        height: 60px;
+    }
+
+    input[type=text] {
+        height: 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    input[type=number] {
+        height: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 45px;
+        height: 33px;
+        font-weight: 200;
+    }
+
+    #film_header {
+        margin-left: 550px;
+        margin-top: 80px;
+        font-family: Garamond;
+        font-size: 40px;
+    }
+
+    #review_table {
+        border-spacing: 0 30px;
+        border-radius: 10px;
+        color: #464d5d;
+        font-weight: 600;
+        font-size: 20px;
+        position: absolute;
+        left: 155px;
+        top: 390px;
+    }
+
+    #labels_format {
+        color: #464d5d;
+        font-size: 20px;
+        position: relative;
+        left: 20px;
+    }
+
+    #country, #lname, #fname {
+        font-size: 20px;
+        font-weight: 200;
+        color: #464d5d;
+        border-radius: 10px;
+        border-width: 2.5px;
+        border-color: #464d5d;
+        position: relative;
+        width: 120px;
+        height: 33px;
+        top: -35px;
+    }
+
+    #fname {
+        left: -10px;
+    }
+
+    #lname {
+        left: -10px;
+    }
+
+    #radio_option {
+        font-size: 20px;
+        color: #464d5d;
+    }
+
+    #send_vote_button {
+        width: 130px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #cc6600;
+        border-color: #cc6600;
+        background-image: url("resources/vote.png");
+        position: relative;
+        top: 18px;
+        left: 50px;
+    }
+
+    #avrg {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 155px;
+    }
+
+    #max_points {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    #avrg, #max_points {
+        color: #151B54;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    #counted_votes {
+        color: #36454F;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+        margin-top: 210px;
+        margin-left: 155px;
+    }
+
+    #rating_star_conclude {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 110px;
+    }
+
+    #score {
+        position: absolute;
+        top: 60px;
+        left: 700px;
+    }
+
+    #send_vote_button {
+        position: absolute;
+        top: 60px;
+        left: 780px;
+    }
+
+    #straight_line {
+        position: absolute;
+        top: 320px;
+        color: blue;
+        border: 0;
+        clear: both;
+        display: block;
+        width: 96%;
+        background-color: blue;
+        height: 1.5px;
+    }

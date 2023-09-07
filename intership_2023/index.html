@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+
+<html>
+<head>
+    <link rel="stylesheet" href="stilimi.css">
+    
+
+    <script src="funksionalitetet.js"></script>
+
+
+
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1 id="film_header">"The Sea Best" Movie Rating</h1>
+
+    <form onsubmit="return false" id="datas">
+
+        <table id="entry_forms">
+            <table>
+                <td><label id="labels_format">FirstName : </label></td>
+                <td><label id="labels_format">LastName : </label></td>
+                <td><label id="labels_format">Country : </label></td>
+                <td><label id="labels_format" style="margin-top:55px">Gender : </label></td>
+                <td>
+                    <table>
+                       
+                        <tr>
+                           <td><br /></td>
+                         </tr>
+                        <tr></tr>
+                            <td>
+                                <input type="radio" id="male_status" unchecked onclick="uncheck_female()"><label id="radio_option" style="margin-top:60px">Male</label><br /><br />
+
+                                <input type="radio" id="female_status" checked onclick="uncheck_male()"> <label id="radio_option">Female </label>
+                            </td>
+                      
+                        
+                    </table>
+
+                </td>
+                <td><br /><br />
+                    <label style="position: absolute; top: 75px; left: 635px; color: #464d5d">RATING: </label>
+                    <input type="number" id="score"  min="1" max="10" step="1" value="1"/>
+                </td>
+                <td>
+                    <input type="submit" id="send_vote_button" value="VOTE" style="color:white; font-weight:500" onclick="fetch_data()"/>
+                </td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="fname" onclick="reset_fname_color()"/></td>
+                    <td><input type="text" id="lname" onclick="reset_lname_color()"/> </td>
+                    <td>
+                            <select name="country_selector" id="country" style="width:150px; height:40px; font-size:18px" onclick="reset_country_color()">
+                            <option selected disabled hidden >Select Country</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Greece">Greece</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            </form>
+            <hr id="straight_line">
+            <table>
+                <tr>
+                    <td><img src="resources/stars.png" id="rating_star_conclude" /></td>     
+                    
+                    <td>
+                        <label id="avrg">0.0</label><label id="max_points">/10.0</label><br />
+                        <label id="counted_votes">0</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    
+                </tr>
+            </table>
+
+
+
+        <table cellpadding="0" cellspacing="0" border="0" id="review_table">
+            <tr id="review_row">
+                <td id="valuated_rows"></td>
+            </tr>
+        </table>
+
+
+</html>
